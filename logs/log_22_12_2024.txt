@@ -1,0 +1,30 @@
+- 23:30:08.629 INFO: Loaded config values OUTPUT_FILE=response.json
+- 23:30:08.629 INFO: Loaded config values PORT=3000
+- 23:30:08.629 INFO: Loaded config values HOST=127.0.0.1
+- 23:30:08.629 INFO: Creating connection for stream API to receive all orders
+- 23:30:08.629 DEBUG: Connected to the server : 127.0.0.1:3000 sucessfully.
+- 23:30:08.630 INFO: Sending stream API request
+- 23:30:08.630 DEBUG: send_msg succeeded
+- 23:30:08.630 INFO: Receiving stream API response
+- 23:30:08.631 DEBUG: receive_msg succeeded
+- 23:30:08.631 INFO: stream API response gathered successfully
+- 23:30:08.631 DEBUG: Connection closed successfully 
+- 23:30:08.631 INFO: Creating connection for resend API to receive missing orders 
+- 23:30:08.631 DEBUG: Connected to the server : 127.0.0.1:3000 sucessfully.
+- 23:30:08.631 INFO: Sending resend request for seq:9
+- 23:30:08.631 DEBUG: send_msg succeeded
+- 23:30:08.631 INFO: Receiving resend response for seq:
+- 23:30:08.632 DEBUG: receive_msg succeeded
+- 23:30:08.632 INFO: Received response for seq:9 correctly
+- 23:30:08.632 INFO: Sending resend request for seq:10
+- 23:30:08.632 DEBUG: send_msg succeeded
+- 23:30:08.632 INFO: Receiving resend response for seq:
+- 23:30:08.632 DEBUG: receive_msg succeeded
+- 23:30:08.632 INFO: Received response for seq:10 correctly
+- 23:30:08.632 INFO: Sending resend request for seq:12
+- 23:30:08.632 DEBUG: send_msg succeeded
+- 23:30:08.632 INFO: Receiving resend response for seq:
+- 23:30:08.632 DEBUG: receive_msg succeeded
+- 23:30:08.632 INFO: Received response for seq:12 correctly
+- 23:30:08.632 DEBUG: Connection closed successfully 
+- 23:30:08.633 INFO: Order book written successfully as json file: response.json
