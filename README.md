@@ -36,7 +36,7 @@ $ make clean
 ```
 
 ### Expected output
-* Once the program succeeds it will write the **json output in the configured file name** (in this case, **response.json**)
+* Once the program succeeds it will write the **json output in the configured file name in the root folder** (in this case, **response.json**)
 * In case of failure, the logs will contain the details
 about what went wrong during the code run
 * The logs are created for each date, for ease of readability
